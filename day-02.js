@@ -51,28 +51,24 @@ function answer3(){
 
 //https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript
 function getLength(arr){
-  return arr.length
+  return arr.length;
 }
 function getFirst(arr){
-  return arr[0]
+  return arr[0];
 }
 function getLast(arr){
-  return arr[arr.length-1]
+  return arr[arr.length-1];
 }
 function pushElement(arr){
   arr.push(4)
-  return arr
+  return arr;
 }
 function popElement(arr){
   arr.pop()
-  return arr
+  return arr;
 }
 
 //https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript
-function animal(obj){
-  const animal={}
-    animal.name="dog"
-    animal.legs=4
-    animal.color="white"       
-  return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.'
+function animal(obj){     
+  return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.';
 }
