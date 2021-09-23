@@ -6,4 +6,12 @@ function padIt(str, n) {
   return str;
 }
 
-//
+//https://www.codewars.com/kata/5721a78c283129e416000999/train/javascript
+function pickIt(arr) {
+  const odd = [],
+    even = [];
+  for (var i = 0; i < arr.length; i++) {
+    arr[i] % 2 !== 0 ? odd.push(arr[i]) : even.push(arr[i]);
+  }
+  return [odd, even];
+}
