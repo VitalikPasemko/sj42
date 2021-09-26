@@ -9,3 +9,10 @@ function bonusTime(salary, bonus) {
   if (bonus) return "\u00A3" + salary * 10;
   else return "\u00A3" + salary;
 }
+//https://www.codewars.com/kata/5a58d889880385c2f40000aa/train/javascript
+function automorphic(n) {
+  const num = n.toString().length;
+  const tail = (n * n).toString().slice(-num);
+  if (n == tail) return "Automorphic";
+  else return "Not!!";
+}
