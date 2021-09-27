@@ -7,4 +7,11 @@ function hero(bullets, dragons){
   return dragons * 2 <= bullets;
 }
 
-
+//https://www.codewars.com/kata/maximum-multiple/train/javascript
+function maxMultiple(divisor, bound) {
+  for (let N = bound; N >= divisor; --N) {
+    if (N % divisor == 0) {
+      return N;
+    }
+  }
+}
