@@ -19,3 +19,14 @@ function colorOf(r, g, b) {
   colorBlue = colorBlue.length < 2 ? "0" + colorBlue : colorBlue;
   return "#" + colorRed + colorGreen + colorBlue;
 }
+
+//https://www.codewars.com/kata/57256064856584bc47000611/train/javascript
+function howManySmaller(arr, n) {
+  count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (parseFloat(arr[i].toFixed(2)) < n) {
+      count++;
+    }
+  }
+  return count;
+}
