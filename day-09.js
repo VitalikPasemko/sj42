@@ -16,3 +16,7 @@ function cutIt(arr) {
 function firstToLast(str,c){
   return str.includes(c) ? str.lastIndexOf(c) - str.indexOf(c) : -1;
 }
+//https://www.codewars.com/kata/57280481e8118511f7000ffa/train/javascript
+function splitAndMerge(string, separator) {
+  return string.split('').join(separator + '').split(separator + ' ' + separator).join(' ');
+}
