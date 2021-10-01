@@ -22,7 +22,7 @@ function colorOf(r, g, b) {
 
 //https://www.codewars.com/kata/57256064856584bc47000611/train/javascript
 function howManySmaller(arr, n) {
-  count = 0;
+ let count = 0;
   for (let i = 0; i < arr.length; i++) {
     if (parseFloat(arr[i].toFixed(2)) < n) {
       count++;
