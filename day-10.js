@@ -12,3 +12,13 @@ function topSecret(str) {
     String.fromCharCode(char.charCodeAt() + (`ABCabc`.includes(char) ? 23 : -3))
   );
 }
+
+//https://www.codewars.com/kata/5729b103dd8bac11a900119e/train/javascript
+function fiveLine(string) {
+  const s = string.trim();
+  let result = "";
+  for (let i = 1; i < 6; i++) {
+    result += s.repeat(i) + "\n";
+  }
+  return result.trim();
+}
