@@ -11,3 +11,14 @@ function threeInOne(array) {
   }
   return finalArray;
 }
+
+//https://www.codewars.com/kata/572df796914b5ba27c000c90/train/javascript
+function sortIt(array) {
+  return array.slice().sort((a, b) => {
+    let countA = array.filter((v) => v === a).length;
+    let countB = array.filter((v) => v === b).length;
+    if (countA === countB) return b - a;
+    else if (countA > countB) return 1;
+    else return -1;
+  });
+}
