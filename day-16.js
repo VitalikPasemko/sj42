@@ -24,8 +24,11 @@ function sortIt(array) {
 }
 
 //https://www.codewars.com/kata/572fdeb4380bb703fc00002c/train/javascript
-function isolateIt(array){
-  return array.map(v => {
-    if (v.length % 2 == 0) return v.slice(0, v.length/2) + '|' + v.slice(v.length/2);
-    if (v.length % 2 !== 0) return v.slice(0, v.length/2) + '|' + v.slice((v.length/2) + 1)});
+function isolateIt(array) {
+  return array.map((v) => {
+    if (v.length % 2 == 0)
+      return v.slice(0, v.length / 2) + "|" + v.slice(v.length / 2);
+    if (v.length % 2 !== 0)
+      return v.slice(0, v.length / 2) + "|" + v.slice(v.length / 2 + 1);
+  });
 }
