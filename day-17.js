@@ -22,3 +22,12 @@ function mirrorImage(array) {
   }
   return [-1, -1];
 }
+
+//https://www.codewars.com/kata/5731861d05d14d6f50000626/train/javascript
+function bigToSmall(array) {
+  const result = []
+    .concat(...array)
+    .sort((a, b) => b - a)
+    .join(">");
+  return result;
+}
