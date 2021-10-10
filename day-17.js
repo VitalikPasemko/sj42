@@ -13,4 +13,12 @@ function countGrade(scores) {
 }
 
 
-//
+//https://www.codewars.com/kata/57308546bd9f0987c2000d07/train/javascript
+function mirrorImage(array) {
+  for (let i = 0; i < array.length - 1; i++) {
+    if (array[i].toString().split("").reverse().join("") === array[i + 1].toString()){
+      return [array[i], array[i + 1]];
+    }
+  }
+  return [-1, -1];
+}
