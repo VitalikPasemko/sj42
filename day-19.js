@@ -7,11 +7,11 @@ function countAnimals(animals, count) {
 }
 
 https://www.codewars.com/kata/573975d3ac3eec695b0013e0/train/javascript
-function findSimilarity(str, word) {
-  const a = word[0] + word.slice(1, -1).replace(/./g, ".") + word.slice(-1);
-  const b = new RegExp("^" + a + "$");
-  return str
+function findSimilarity(string, word) {
+  const regularA = word[0] + word.slice(1, -1).replace(/./g, ".") + word.slice(-1);
+  const regularB = new RegExp("^" + regularA + "$");
+  return string
     .split(" ")
-    .filter((v) => b.test(v))
+    .filter((v) => regularB.test(v))
     .join(" ");
 }
