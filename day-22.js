@@ -4,4 +4,4 @@ function anyArrows(arrows) {
 }
 
 //https://www.codewars.com/kata/586909e4c66d18dd1800009b/train/javascript
-const multiplyAll = array => int => array.map(number => number * int)
+const multiplyAll = (array) => (int) => array.map((number) => number * int);
