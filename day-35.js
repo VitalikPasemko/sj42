@@ -8,3 +8,9 @@ class Animal {
     return `${this.name} is a ${this.type}`;
   }
 }
+
+//https://www.codewars.com/kata/557e508a47c7e9adf9000062/train/javascript
+const parent = { description: "TODO: GIVE ME A DESCRIPTION" };
+Object.setPrototypeOf(widget, parent);
+Object.setPrototypeOf(gadget, parent);
+Object.setPrototypeOf(thingamabob, parent);
