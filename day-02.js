@@ -65,21 +65,21 @@ function answer3() {
 
 
 //https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript
-function getLength(arr){
+function getLength(arr) {
   return arr.length;
 }
-function getFirst(arr){
+function getFirst(arr) {
   return arr[0];
 }
-function getLast(arr){
-  return arr[arr.length-1];
+function getLast(arr) {
+  return arr[arr.length - 1];
 }
-function pushElement(arr){
-  arr.push(4)
+function pushElement(arr) {
+  arr.push(4);
   return arr;
 }
-function popElement(arr){
-  arr.pop()
+function popElement(arr) {
+  arr.pop();
   return arr;
 }
 
